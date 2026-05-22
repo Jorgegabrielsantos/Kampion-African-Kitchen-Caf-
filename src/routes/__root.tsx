@@ -82,6 +82,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Kampion African Kitchen & Café" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Kampion African Kitchen & Café" },
+      { name: "twitter:title", content: "Kampion African Kitchen & Café" },
+      { name: "description", content: "Kampion's Culinary Canvas is a modern, responsive website for Kampion African Kitchen & Café." },
+      { property: "og:description", content: "Kampion's Culinary Canvas is a modern, responsive website for Kampion African Kitchen & Café." },
+      { name: "twitter:description", content: "Kampion's Culinary Canvas is a modern, responsive website for Kampion African Kitchen & Café." },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
