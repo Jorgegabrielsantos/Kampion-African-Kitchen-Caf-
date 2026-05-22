@@ -54,10 +54,7 @@ export function Menu() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between p-5">
                   <div>
-                    <div className="flex items-start justify-between gap-3">
-                      <h3 className="font-display text-lg leading-tight">{item.name}</h3>
-                      <span className="shrink-0 text-sm font-semibold text-primary">{item.price}</span>
-                    </div>
+                    <h3 className="font-display text-lg leading-tight">{item.name}</h3>
                     <p className="mt-2 text-xs text-muted-foreground">{item.desc}</p>
                   </div>
                 </div>
