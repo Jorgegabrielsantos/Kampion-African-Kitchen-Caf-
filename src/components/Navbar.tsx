@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const links = [
   { href: "#home", label: "Início" },
@@ -30,12 +31,10 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-        <a href="#home" className="group flex items-center gap-2">
-          <span className="font-display text-2xl tracking-tight">
+        <a href="#home" className="group flex items-center gap-3">
+          <img src={logo} alt="Kampion African Kitchen & Café" className="h-11 w-11 rounded-full object-cover ring-2 ring-primary/60" />
+          <span className="hidden font-display text-xl tracking-tight sm:inline">
             <span className="text-gold-gradient">Kampion</span>
-          </span>
-          <span className="hidden text-xs uppercase tracking-[0.25em] text-muted-foreground sm:inline">
-            African Kitchen
           </span>
         </a>
 

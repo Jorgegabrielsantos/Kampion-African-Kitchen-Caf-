@@ -54,7 +54,14 @@ export function Menu() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between p-5">
                   <div>
-                    <h3 className="font-display text-lg leading-tight">{item.name}</h3>
+                    <div className="flex items-start justify-between gap-3">
+                      <h3 className="font-display text-lg leading-tight">{item.name}</h3>
+                      {item.price && (
+                        <span className="shrink-0 whitespace-nowrap rounded-full border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary">
+                          {item.price}
+                        </span>
+                      )}
+                    </div>
                     <p className="mt-2 text-xs text-muted-foreground">{item.desc}</p>
                   </div>
                 </div>

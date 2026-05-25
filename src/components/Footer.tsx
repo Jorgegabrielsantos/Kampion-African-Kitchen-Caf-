@@ -1,11 +1,13 @@
 import { INFO } from "@/lib/data";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   return (
     <footer className="border-t border-border bg-card/40 bg-african-pattern">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-4 lg:px-10">
         <div>
-          <p className="font-display text-2xl">
+          <img src={logo} alt="Kampion African Kitchen & Café" className="h-20 w-20 rounded-full object-cover ring-2 ring-primary/60" />
+          <p className="mt-4 font-display text-2xl">
             <span className="text-gold-gradient">Kampion</span>
           </p>
           <p className="mt-1 text-xs uppercase tracking-[0.3em] text-muted-foreground">African Kitchen &amp; Café</p>
