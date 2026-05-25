@@ -6,6 +6,16 @@ import friedRicePlantain from "@/assets/fried-rice-plantain.jpg";
 import friedRiceChicken from "@/assets/fried-rice-chicken.jpg";
 import yassa from "@/assets/yassa.jpg";
 import maafe from "@/assets/maafe.jpg";
+import soupouKandja from "@/assets/soupou-kandja.jpg";
+import tchepDjen from "@/assets/tchep-djen.jpg";
+import catxupa from "@/assets/catxupa.jpg";
+import cuzcuz from "@/assets/cuzcuz.jpg";
+import cowLegPepper from "@/assets/cow-leg-pepper.jpg";
+import goatPepper from "@/assets/goat-pepper.jpg";
+import assortedPepper from "@/assets/assorted-pepper.jpg";
+import sarabudja from "@/assets/sarabudja.jpg";
+import cowSkin from "@/assets/cow-skin.jpg";
+import isiEwu from "@/assets/isi-ewu.jpg";
 import coffee from "@/assets/coffee.jpg";
 import bissap from "@/assets/bissap.jpg";
 
@@ -26,6 +36,18 @@ export const menu = {
     { name: "Fried Rice with Chicken", desc: "Arroz frito colorido servido com frango grelhado.", img: friedRiceChicken, price: "500$ / 800$" },
     { name: "Yassa", desc: "Frango marinado em limão e cebola caramelizada, clássico senegalês.", img: yassa, price: "500$ / 700$" },
     { name: "Maafe", desc: "Guisado cremoso de amendoim com legumes sobre arroz branco.", img: maafe, price: "500$ / 700$" },
+    { name: "Soupou Kandja", desc: "Guisado senegalês de quiabo com peixe, servido sobre arroz branco.", img: soupouKandja, price: "500$" },
+    { name: "Tchep Djen", desc: "Arroz vermelho com peixe e legumes, prato nacional do Senegal.", img: tchepDjen, price: "500$ / 700$" },
+    { name: "Catxupa", desc: "Prato nacional de Cabo Verde com milho, feijão e carnes.", img: catxupa, price: "250$ / 450$" },
+    { name: "Cuzcuz", desc: "Cuscuz tradicional de milho, fofo e dourado.", img: cuzcuz, price: "300$" },
+  ],
+  "Sopas": [
+    { name: "Cow Leg Pepper Soup", desc: "Sopa picante nigeriana com perna de vaca e especiarias.", img: cowLegPepper, price: "700$" },
+    { name: "Goat Meat Pepper Soup", desc: "Sopa apimentada com carne de cabra tenra e ervas frescas.", img: goatPepper, price: "700$" },
+    { name: "Assorted Meat Pepper Soup", desc: "Mistura de carnes variadas em caldo picante e aromático.", img: assortedPepper, price: "600$" },
+    { name: "Sarabudja", desc: "Sopa tradicional reconfortante de sabores intensos.", img: sarabudja, price: "350$" },
+    { name: "Cow Skin Sauce", desc: "Molho de pele de vaca temperado com cebolinho.", img: cowSkin, price: "100$ / unid." },
+    { name: "Nigerian Isi Ewu", desc: "Iguaria nigeriana de cabeça de cabra temperada com cebola roxa.", img: isiEwu, price: "1200$" },
   ],
   "Café & Bebidas": [
     { name: "Café Africano", desc: "Espresso encorpado de grãos africanos selecionados.", img: coffee, price: "" },
