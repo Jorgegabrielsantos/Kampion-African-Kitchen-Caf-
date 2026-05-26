@@ -39,36 +39,42 @@ export function Menu() {
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {items.map((item, i) => (
-            <Reveal key={item.name} delay={i * 60}>
-              <article className="group flex h-full overflow-hidden rounded-2xl border border-border bg-card transition-all hover:-translate-y-1 hover:border-primary/60 hover:shadow-[var(--shadow-gold)]">
-                <div className="aspect-square w-32 shrink-0 overflow-hidden">
-                  <img
-                    src={item.img}
-                    alt={item.name}
-                    loading="lazy"
-                    width={1024}
-                    height={1024}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col justify-between p-5">
-                  <div>
-                    <div className="flex items-start justify-between gap-3">
-                      <h3 className="font-display text-lg leading-tight">{item.name}</h3>
-                      {item.price && (
-                        <span className="shrink-0 whitespace-nowrap rounded-full border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary">
-                          {item.price}
-                        </span>
-                      )}
+          {items.map((item, i) => {
+            const img = "img" in item ? item.img : undefined;
+            return (
+              <Reveal key={item.name} delay={i * 60}>
+                <article className="group flex h-full overflow-hidden rounded-2xl border border-border bg-card transition-all hover:-translate-y-1 hover:border-primary/60 hover:shadow-[var(--shadow-gold)]">
+                  {img && (
+                    <div className="aspect-square w-32 shrink-0 overflow-hidden">
+                      <img
+                        src={img}
+                        alt={item.name}
+                        loading="lazy"
+                        width={1024}
+                        height={1024}
+                        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      />
                     </div>
-                    <p className="mt-2 text-xs text-muted-foreground">{item.desc}</p>
+                  )}
+                  <div className="flex flex-1 flex-col justify-between p-5">
+                    <div>
+                      <div className="flex items-start justify-between gap-3">
+                        <h3 className="font-display text-lg leading-tight">{item.name}</h3>
+                        {item.price && (
+                          <span className="shrink-0 whitespace-nowrap rounded-full border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary">
+                            {item.price}
+                          </span>
+                        )}
+                      </div>
+                      <p className="mt-2 text-xs text-muted-foreground">{item.desc}</p>
+                    </div>
                   </div>
-                </div>
-              </article>
-            </Reveal>
-          ))}
+                </article>
+              </Reveal>
+            );
+          })}
         </div>
+
       </div>
     </section>
   );
