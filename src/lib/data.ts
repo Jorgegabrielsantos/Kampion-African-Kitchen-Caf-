@@ -16,6 +16,10 @@ import assortedPepper from "@/assets/assorted-pepper.jpg";
 import sarabudja from "@/assets/sarabudja.jpg";
 import cowSkin from "@/assets/cow-skin.jpg";
 import isiEwu from "@/assets/isi-ewu.jpg";
+import shawarma from "@/assets/shawarma.jpg";
+import burger from "@/assets/burger.jpg";
+import chickenFries from "@/assets/chicken-fries.jpg";
+import fishFries from "@/assets/fish-fries.jpg";
 import coffee from "@/assets/coffee.jpg";
 import bissap from "@/assets/bissap.jpg";
 
@@ -48,6 +52,47 @@ export const menu = {
     { name: "Sarabudja", desc: "Sopa tradicional reconfortante de sabores intensos.", img: sarabudja, price: "350$" },
     { name: "Cow Skin Sauce", desc: "Molho de pele de vaca temperado com cebolinho.", img: cowSkin, price: "100$ / unid." },
     { name: "Nigerian Isi Ewu", desc: "Iguaria nigeriana de cabeça de cabra temperada com cebola roxa.", img: isiEwu, price: "1200$" },
+  ],
+  "Fast-food": [
+    { name: "Shawarma", desc: "Wrap recheado de carne marinada, vegetais frescos e molhos.", img: shawarma, price: "300$" },
+    { name: "Hambúrguer", desc: "Pão fofo, hambúrguer suculento, queijo derretido e vegetais.", img: burger, price: "300$" },
+    { name: "Chicken & Fries", desc: "Frango grelhado dourado servido com batatas fritas crocantes.", img: chickenFries, price: "500$" },
+    { name: "Fish & Fries", desc: "Peixe frito estaladiço acompanhado de batatas e legumes.", img: fishFries, price: "600$" },
+  ],
+  "Pequeno Almoço": [
+    { name: "Akara and Custard / Bread", desc: "Bolinhos de feijão fradinho com creme ou pão.", price: "350$" },
+    { name: "Moimoi and Custard", desc: "Pudim de feijão cozido no vapor servido com creme.", price: "350$" },
+    { name: "Fried Egg Sauce / Plantain", desc: "Ovos estrelados com molho de tomate e banana-pão.", price: "500$" },
+    { name: "Beans and Custard", desc: "Feijão estufado servido com creme tradicional.", price: "" },
+    { name: "Beans and Plantain", desc: "Feijão estufado com banana-pão dourada.", price: "600$" },
+    { name: "Fried Egg and Fried Potatoes", desc: "Ovos estrelados com batatas fritas caseiras.", price: "450$" },
+    { name: "Noodles and Fried Egg", desc: "Massa salteada coberta com ovo estrelado.", price: "350$" },
+    { name: "Sandes Ovo / Carne", desc: "Sanduíche de ovo ou de carne em pão fresco.", price: "250$" },
+    { name: "Quaker Oat / Egg Sauce & Plantain", desc: "Papas de aveia com molho de ovo e banana-pão.", price: "600$" },
+    { name: "Cachupa Simples", desc: "Cachupa tradicional cabo-verdiana.", price: "250$" },
+    { name: "Cachupa with Omelet", desc: "Cachupa refogada coberta com omelete.", price: "500$" },
+    { name: "Cuzcuz", desc: "Cuscuz tradicional de milho.", price: "200$" },
+    { name: "Omelet", desc: "Omelete fofa preparada na hora.", price: "300$" },
+    { name: "Pancake / Tea", desc: "Panquecas servidas com chá quente.", price: "250$" },
+  ],
+  "Drinks": [
+    { name: "Água 1.5L", desc: "Água mineral natural.", price: "150$" },
+    { name: "Água 0.5L", desc: "Água mineral natural.", price: "100$" },
+    { name: "Spirit", desc: "Refrigerante gaseificado.", price: "250$" },
+    { name: "Coke 1.5L / 0.5L", desc: "Coca-Cola clássica.", price: "100$" },
+    { name: "7up", desc: "Refrigerante de lima-limão.", price: "100$" },
+    { name: "Pepsi", desc: "Refrigerante de cola.", price: "100$" },
+    { name: "Sumol", desc: "Sumo gaseificado de fruta.", price: "100$" },
+    { name: "Maaza", desc: "Néctar de manga indiano.", price: "150$" },
+    { name: "Compal", desc: "Sumo de fruta natural.", price: "150$" },
+    { name: "Malta", desc: "Bebida de malte sem álcool.", price: "150$" },
+    { name: "Mega Force", desc: "Bebida energética.", price: "100$" },
+    { name: "Somersby", desc: "Cidra refrescante.", price: "200$" },
+    { name: "D'nos", desc: "Bebida refrescante.", price: "140$" },
+    { name: "Vinho Tinto", desc: "Copo de vinho tinto.", price: "200$" },
+    { name: "Vinho Branco", desc: "Copo de vinho branco.", price: "200$" },
+    { name: "Super Bock", desc: "Cerveja portuguesa.", price: "160$" },
+    { name: "Strela", desc: "Cerveja cabo-verdiana.", price: "150$" },
   ],
   "Café & Bebidas": [
     { name: "Café Africano", desc: "Espresso encorpado de grãos africanos selecionados.", img: coffee, price: "" },
