@@ -1,5 +1,8 @@
-import interior from "@/assets/interior.jpg";
-import chef from "@/assets/chef.jpg";
+import dining from "@/assets/dining.jpg";
+import guestsGroup from "@/assets/guests-group.jpg";
+import africaWall from "@/assets/africa-wall.jpg";
+import owners from "@/assets/owners.jpg";
+
 import { Reveal } from "./Reveal";
 
 const values = ["Tradição", "Hospitalidade", "Qualidade", "Cultura", "Excelência"];

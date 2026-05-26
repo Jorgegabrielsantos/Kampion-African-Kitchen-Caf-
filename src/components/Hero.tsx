@@ -1,4 +1,6 @@
-import heroImg from "@/assets/hero.jpg";
+import heroImg from "@/assets/storefront.jpg";
+import heroAlt from "@/assets/interior-africa.jpg";
+
 import { Clock, MapPin, MessageCircle } from "lucide-react";
 import { INFO } from "@/lib/data";
 
