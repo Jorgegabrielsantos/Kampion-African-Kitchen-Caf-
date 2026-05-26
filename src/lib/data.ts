@@ -20,9 +20,6 @@ import shawarma from "@/assets/shawarma.jpg";
 import burger from "@/assets/burger.jpg";
 import chickenFries from "@/assets/chicken-fries.jpg";
 import fishFries from "@/assets/fish-fries.jpg";
-import coffee from "@/assets/coffee.jpg";
-import bissap from "@/assets/bissap.jpg";
-
 export const popular = [
   { name: "Nigerian Jollof Rice", img: jollof, desc: "Arroz vermelho aromático preparado à moda nigeriana, servido com salada fresca." },
   { name: "Maafe", img: maafe, desc: "Guisado cremoso de amendoim com legumes, servido sobre arroz branco." },
@@ -94,11 +91,6 @@ export const menu = {
     { name: "Super Bock", desc: "Cerveja portuguesa.", price: "160$" },
     { name: "Strela", desc: "Cerveja cabo-verdiana.", price: "150$" },
   ],
-  "Café & Bebidas": [
-    { name: "Café Africano", desc: "Espresso encorpado de grãos africanos selecionados.", img: coffee, price: "" },
-    { name: "Bissap (Hibiscus)", desc: "Sumo natural de hibisco gelado com hortelã.", img: bissap, price: "" },
-    { name: "Sumo de Tamarindo", desc: "Refrescante sumo natural feito na casa.", img: bissap, price: "" },
-  ],
 };
 
 export const gallery = [
@@ -110,7 +102,6 @@ export const gallery = [
   { src: friedRicePlantain, alt: "Fried rice com plantain" },
   { src: friedRiceChicken, alt: "Fried rice com frango" },
   { src: waakye, alt: "Ghanaian Waakye" },
-  { src: coffee, alt: "Café africano artesanal" },
 ];
 
 export const INFO = {
