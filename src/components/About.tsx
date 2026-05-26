@@ -12,25 +12,34 @@ export function About() {
     <section id="sobre" className="relative py-24 lg:py-32">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-2 lg:px-10">
         <Reveal>
-          <div className="relative">
+          <div className="grid grid-cols-2 gap-4">
             <img
-              src={interior}
-              alt="Interior elegante do Kampion"
+              src={dining}
+              alt="Sala de jantar do Kampion"
               loading="lazy"
-              width={1536}
-              height={1024}
-              className="aspect-[4/5] w-full rounded-2xl object-cover shadow-[var(--shadow-elegant)]"
+              className="aspect-[3/4] w-full rounded-2xl object-cover shadow-[var(--shadow-elegant)]"
             />
             <img
-              src={chef}
-              alt="Chef a empratar"
+              src={africaWall}
+              alt="Parede com o mapa de África no Kampion"
               loading="lazy"
-              width={1024}
-              height={1280}
-              className="absolute -bottom-10 -right-6 hidden h-56 w-44 rounded-2xl border-4 border-background object-cover shadow-[var(--shadow-gold)] md:block"
+              className="mt-8 aspect-[3/4] w-full rounded-2xl object-cover shadow-[var(--shadow-elegant)]"
+            />
+            <img
+              src={guestsGroup}
+              alt="Clientes a celebrar no Kampion"
+              loading="lazy"
+              className="aspect-[3/4] w-full rounded-2xl object-cover shadow-[var(--shadow-elegant)]"
+            />
+            <img
+              src={owners}
+              alt="Anfitriões do Kampion"
+              loading="lazy"
+              className="mt-8 aspect-[3/4] w-full rounded-2xl object-cover shadow-[var(--shadow-elegant)]"
             />
           </div>
         </Reveal>
+
 
         <Reveal delay={150}>
           <div className="flex h-full flex-col justify-center">
